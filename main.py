@@ -2,6 +2,7 @@ import tkinter
 import customtkinter
 from pytube import YouTube
 
+# Define a start download function
 
 def start_download():
     try:
@@ -75,5 +76,3 @@ download.pack(padx=10, pady=10)
 # loop the app so window stays open
 
 app.mainloop()  # tells python to run the tkinter event as a loop.
-
-# Define a start download function
